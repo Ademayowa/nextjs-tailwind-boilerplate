@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Quicksand:wght@300;400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
-
 @layer base {
   body {
-    @apply font-poppins;
+    @apply font-quicksand;
+  }
+
+  h1,
+  h2 {
+    @apply font-lato;
   }
 }
 
