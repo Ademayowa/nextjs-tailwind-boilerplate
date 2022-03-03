@@ -16,12 +16,13 @@ export default function Header() {
       />
 
       <div className='ml-auto flex items-center space-x-4'>
-        <a className='header-link group' onClick={() => router.push('/')}>
-          <span className='span'>Home</span>
-        </a>
-        <a className='header-link group'>
-          <span className='span'>About</span>
-        </a>
+        <ul className='header-link'>
+          <li>
+            <a href='#' onClick={() => router.push('/')}>
+              Home
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
   );
